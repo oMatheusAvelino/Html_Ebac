@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Passei?</title>
+        <link  rel="stylesheet" href="./main.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Passei?</h1>
+            <h2>Insira nota no Campo(A) e nota de corte no Campo(B)</h2>
+            <div id="form-binario">
+                <form id="form-captacao">
+                    <input type="number" id="numero1" required placeholder="Nota-A"/>
+                    <input type="number" id="numero2" required placeholder="Nota-B"/><br>
+                    <button id="btn-enviar" type="submit">ENVIAR</button>
+                </form>
+                <p class="sucess-message">Você passou</p>
+                <p class="fail-message">Você reprovou</p>
+            </div>
+        </div>
+        <script src="./main.js" ></script>
+    </body>
+</html>
